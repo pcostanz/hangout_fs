@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<!-- Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *      
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License
+-->
+        <ModulePrefs title="Hangout Starter">
+                <Require feature="rpc" />
+                <Require feature="views" />\
+                <Require feature="locked-domain" /> \
+        </ModulePrefs>
+        <Content type="html"><![CDATA[     
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hangout Flatulance Suite</title>
+
+  <link href='//fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//leaguehangout.appspot.com/static/hangout_fs/css/hangout_fs.css">
+</head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://plus.google.com/hangouts/_/api/v1/hangout.js"></script>
+
+<div class="wrapper">
+
+<header>
+  <h1>Hangout Flatulance Suite</h1>
+
+    <ul class="colorbar">
+      <li class="green"></li>
+      <li class="blue"></li>
+      <li class="red"></li>     
+      <li class="purple"></li>
+      <li class="cyan last"></li>
+    </ul>
+    
+  <span class="tagline">'let me sing you the song of my people'</span>
+</header>
+
+<section class="buttons">
+<a href="#" class="btn" id="airbiscuit">The Air Biscuit</a>
+<a href="#" class="btn" id="cflat">C Flat</a>
+<a href="#" class="btn" id="oprah">Oprah Windfree</a>
+<a href="#" class="btn" id="puffy">Puff Daddy</a>
+<a href="#" class="btn" id="trumpet">Da Trumpet</a>
+<a href="#" class="btn" id="violinist">The Violinist</a>
+<a href="#" class="btn" id="jurassic">Jurassic Farts</a>
+<a href="#" class="btn" id="dirty">The Dirty</a>
+<a href="#" class="btn" id="quick">Squeezer</a>
+<a href="#" class="btn" id="wet">Wet Fart</a>
+<a href="#" class="btn" id="crispdelight">Crisp Delight</a>
+<a href="#" class="btn" id="potentpotable">Potent Potable</a>
+<a href="#" class="btn" id="turtlehead">Turtle Head</a>
+<a href="#" class="btn" id="UNNAMED1">Unnamed 1</a>
+<a href="#" class="btn" id="UNNAMED2">Unnamed 2</a>
+<a href="#" class="btn" id="UNNAMED3">Unnamed 3</a>
+</section>
+
+</div>
+<script src="//leaguehangout.appspot.com/static/hangout_fs/js/hangout_fs.js"></script>
+</body>
+</html>
+
+
+]]>
+</Content>
+
+</Module>
